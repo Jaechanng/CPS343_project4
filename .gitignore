@@ -1,0 +1,41 @@
+# Compiled executables
+proj4-cuda
+proj4-cublas
+cuda_stream
+
+# Object and binary build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# CUDA/NVIDIA profiler and intermediate output
+*.ptx
+*.cubin
+*.fatbin
+*.nvprof
+*.nsys-rep
+*.qdrep
+*.sqlite
+
+# Benchmark and runtime output
+results.txt
+*.log
+
+# Generated dependency files
+*.d
+
+# Editor, OS, and local environment files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.env
+.env.*
