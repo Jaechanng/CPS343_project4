@@ -1,0 +1,102 @@
+======================================
+ CUDA Benchmark (Raw Output)
+======================================
+
+--------------------------------------
+Program : ./proj4-cublas
+Matrix  : A-5000x5000.dat
+--------------------------------------
+
+[P1000 ]
+matrix dimensions: 5000 x 5000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.102231 seconds
+elapsed compute time   =   0.555854 seconds
+eigenvalue = 5.497701 found in 191 iterations
+
+[RTX3000]
+matrix dimensions: 5000 x 5000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.083453 seconds
+elapsed compute time   =   0.182052 seconds
+eigenvalue = 5.497701 found in 191 iterations
+
+[RTXA5000 - ml partition]
+matrix dimensions: 5000 x 5000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.099328 seconds
+elapsed compute time   =   0.108740 seconds
+eigenvalue = 5.497701 found in 191 iterations
+
+
+--------------------------------------
+Program : ./proj4-cublas
+Matrix  : A-10000x10000.dat
+--------------------------------------
+
+[P1000 ]
+matrix dimensions: 10000 x 10000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.254213 seconds
+elapsed compute time   =   2.186962 seconds
+eigenvalue = -5.499261 found in 185 iterations
+
+[RTX3000]
+matrix dimensions: 10000 x 10000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.246676 seconds
+elapsed compute time   =   0.596948 seconds
+eigenvalue = -5.499261 found in 185 iterations
+
+[RTXA5000 - ml partition]
+matrix dimensions: 10000 x 10000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.314238 seconds
+elapsed compute time   =   0.268079 seconds
+eigenvalue = -5.499261 found in 185 iterations
+
+
+--------------------------------------
+Program : ./proj4-cuda
+Matrix  : A-5000x5000.dat
+--------------------------------------
+
+[P1000 ]
+matrix dimensions: 5000 x 5000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.067414 seconds
+elapsed compute time   =   0.557510 seconds
+eigenvalue = 5.497701 found in 191 iterations
+
+[RTX3000]
+matrix dimensions: 5000 x 5000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.081429 seconds
+elapsed compute time   =   0.213992 seconds
+eigenvalue = 5.497701 found in 191 iterations
+
+[RTXA5000 - ml partition]
+matrix dimensions: 5000 x 5000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.109098 seconds
+elapsed compute time   =   0.177592 seconds
+eigenvalue = 5.497701 found in 191 iterations
+
+
+--------------------------------------
+Program : ./proj4-cuda
+Matrix  : A-10000x10000.dat
+--------------------------------------
+
+[P1000 ]
+matrix dimensions: 10000 x 10000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.321701 seconds
+elapsed compute time   =   2.069066 seconds
+eigenvalue = -5.499262 found in 184 iterations
+
+[RTX3000]
+matrix dimensions: 10000 x 10000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.242474 seconds
+elapsed compute time   =   0.551429 seconds
+eigenvalue = -5.499262 found in 184 iterations
+
+[RTXA5000 - ml partition]
+matrix dimensions: 10000 x 10000; tolerance: 1.0000e-06; max iterations: 1000
+elapsed HDF5 read time =   0.342187 seconds
+elapsed compute time   =   0.346613 seconds
+eigenvalue = -5.499262 found in 184 iterations
+
+======================================
+ Done
+======================================
